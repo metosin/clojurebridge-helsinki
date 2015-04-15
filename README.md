@@ -26,13 +26,13 @@ If all looks good, then:
 ```bash
 git add your changes
 git commit -m message
-git co gh-pages
+git checkout gh-pages
 git merge master
 ./build.sh
 git add index.html js css img
 git commit -m message
 git push
-git co master
+git checkout master
 ```
 
 ## License
