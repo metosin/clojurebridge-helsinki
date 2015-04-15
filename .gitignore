@@ -14,3 +14,10 @@ pom.xml.asc
 /.classpath
 /.project
 /.settings
+
+/prod
+/index.html
+/js
+/css
+/shim
+/img
