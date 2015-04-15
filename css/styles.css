@@ -1,11 +1,14 @@
 html {
-  font-family: sans-serif;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
 }
 body {
+  font-family: "Lato", sans-serif;
   background: #f5f5f5;
   color: #323232;
+}
+.script {
+  font-family: "Cookie", cursive;
 }
 .loading-page {
   display: flex;
