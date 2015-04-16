@@ -1,6 +1,6 @@
 # ClojureBridge - Helsinki
 
-This is gh-pages project for ClojureScript Helsinki event.
+This is gh-pages project for ClojureBridge Helsinki event.
 
 ## Develop
 
@@ -21,19 +21,27 @@ Test production build:
 This builds production version to project root (that's where gh-pages looks for it). Open
 and test ```index.html``` file.
 
-If all looks good, then:
+Actual deployment:
 
 ```bash
-git add your changes
-git commit -m message
+git add your-changes-here
+git commit -m you-message-here
 git checkout gh-pages
 git merge master
 ./build.sh
+```
+
+Now would be great time to test the build. Open ```index.html``` from the project root. If
+everything looks ok, then proceed with:
+
+```basg
 git add index.html js css img
-git commit -m message
+git commit -m some-meaningfull-message
 git push
 git checkout master
 ```
+
+And we're done and back in master. Check you results at http://clojurebridge-helsinki.metosin.fi/
 
 ## License
 
