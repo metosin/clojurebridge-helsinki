@@ -7,7 +7,7 @@
     [:a {:href "http://www.clojurebridge.org" :target "new"}
      [:img {:src "img/clojurebridge-logo.png"}]]]
    [:h1.script "ClojureBridge - Helsinki"]
-   [:p "Tulossa pian....."]])
+   [:p "Tulossa pian..."]])
 
 (defn mount-root! []
   (reagent/render [main-view] (js/document.getElementById "app")))
