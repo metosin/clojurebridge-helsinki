@@ -30,7 +30,8 @@ body {
   justify-content: center;
   width: 100%;
 }
-.loading-page .logo {
+.loading-page .logo,
+.loading-page .sponsor {
   margin: 4rem auto;
 }
 .wrapper {
