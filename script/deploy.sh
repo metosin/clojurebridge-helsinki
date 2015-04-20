@@ -26,8 +26,7 @@ fi
 
 lein prod
 cp CNAME $target/CNAME
-cp -r ./resources/static/* $target
-cp ./target/prod/css/styles.css $target/css
+cp -r ./resources/static/* $target/
 
 cd $target
 

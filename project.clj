@@ -48,9 +48,7 @@
                              [lein-cljsbuild "1.0.5"]
                              [lein-figwheel "0.2.6" :exclusions [org.clojure/clojure org.clojure/clojurescript org.clojure/tools.reader http-kit]]
                              [deraen/lein-less4j "0.2.1"]]}
-             :prod {:less {:target-path "gh-pages/css"}
-                    :prod-target "gh-pages"
-                    :clean-targets ^:replace [:prod-target]}}
+             :prod {:less {:target-path "gh-pages/css"}}}
 
   :aliases {"develop" ["do" "clean" ["pdo" ["figwheel"] ["less4j" "auto"]]]
             "prod" ["with-profile" "prod" "do" "clean" ["less4j" "once"] ["cljsbuild" "once" "prod"]]})
