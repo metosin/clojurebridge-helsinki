@@ -57,3 +57,4 @@ cljs.core.constant$keyword$href = new cljs.core.Keyword(null,"href","href",-7938
 cljs.core.constant$keyword$img = new cljs.core.Keyword(null,"img","img",1442687358);
 cljs.core.constant$keyword$a = new cljs.core.Keyword(null,"a","a",-2123407586);
 cljs.core.constant$keyword$cljs$core_SLASH_not_DASH_found = new cljs.core.Keyword("cljs.core","not-found","cljs.core/not-found",-1572889185);
+cljs.core.constant$keyword$img$sponsor = new cljs.core.Keyword(null,"img.sponsor","img.sponsor",-1218291841);
