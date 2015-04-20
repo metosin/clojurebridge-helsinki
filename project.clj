@@ -34,8 +34,8 @@
                        {:id "prod"
                         :source-paths ["src/cljs"]
                         :compiler {:main           "ui.main"
-                                   :output-to      "target/prod/js/app.js"
-                                   :output-dir     "target/prod/js/out"
+                                   :output-to      "gh-pages/js/app.js"
+                                   :output-dir     "gh-pages/js/out"
                                    :optimizations  :advanced
                                    :elide-asserts  true
                                    :pretty-print   false}}]}
@@ -48,8 +48,8 @@
                              [lein-cljsbuild "1.0.5"]
                              [lein-figwheel "0.2.6" :exclusions [org.clojure/clojure org.clojure/clojurescript org.clojure/tools.reader http-kit]]
                              [deraen/lein-less4j "0.2.1"]]}
-             :prod {:less {:target-path "target/prod/css"}
-                    :prod-target "target/prod"
+             :prod {:less {:target-path "gh-pages/css"}
+                    :prod-target "gh-pages"
                     :clean-targets ^:replace [:prod-target]}}
 
   :aliases {"develop" ["do" "clean" ["pdo" ["figwheel"] ["less4j" "auto"]]]

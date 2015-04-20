@@ -15,8 +15,4 @@ pom.xml.asc
 /.project
 /.settings
 
-/index.html
-/js
-/css
-/shim
-/img
+gh-pages
