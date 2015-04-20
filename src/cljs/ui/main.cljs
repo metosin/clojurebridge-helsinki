@@ -13,7 +13,7 @@
     ]
     [:p "Mukaan maksuttomaan tapahtumaan ovat tervetulleita kaikki naiseksi identifioituvat. Myös miehet ovat tervetulleita, mikäli tulevat tapahtumaan naisen avecina. "]
     [:p "ClojureBridgessä pääset tutustumaan ohjelmoinnin konsepteihin käyttäen modernia ohjelmointikieltä, " [:a {:href "http://www.clojure.org" :target "new"} "Clojurea."] ]
-    [:p "Kurssi ei edellytä aiempaa ohjelmointikokemusta, myös vasta-alkajat voivat siis osallistua."]
+    [:p "Kurssi ei edellytä sinulta aiempaa ohjelmointikokemusta, myös vasta-alkajat voivat siis osallistua."]
     ]
    [:section.practicalinfo
     [:h2 "Aikataulu"]
