@@ -25,7 +25,6 @@ else
 fi
 
 lein prod
-cp CNAME $target/CNAME
 cp -r ./resources/static/* $target/
 
 cd $target
