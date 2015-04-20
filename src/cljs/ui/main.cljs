@@ -32,12 +32,12 @@
     [:p "Peruutuksissa tai muissa kysymyksissä pyydämme ottamaan yhteyttä " [:mailto "clojurebridge.helsinki@gmail.com"]]
      [:p "Kurssipaikkana toimii kaupunkiverstas Lasipalatsilla. Lisätietoa löydät kaupunkiverstaasta " [:a {:href "http://www.kaupunkiverstas.fi/" :target "new"} "täältä."]] 
    ]
-    ]
+    
      [:div.sponsor
       [:h2 "Tapahtuman mahdollistaa yhteistyökumppanimme " [:a {:href "http://www.metosin.fi/" :target "new"} "Metosin"]]
     [:a {:href "http://www.metosin.fi" :target "new"}
-     [:img {:src "img/musta_vaaka.svg" :width "500px"}]]]
-     ])
+     [:img.sponsor {:src "img/musta_vaaka.svg" :width "300px"}]]]
+     ]])
 
 (defn mount-root! []
   (reagent/render [main-view] (js/document.getElementById "app")))
