@@ -30,9 +30,12 @@ body {
   justify-content: center;
   width: 100%;
 }
-.loading-page .logo,
-.loading-page .sponsor {
+.loading-page .logo {
   margin: 4rem auto;
+}
+img.sponsor {
+  display: block;
+  margin: auto;
 }
 .wrapper {
   width: 80%;
