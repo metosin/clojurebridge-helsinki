@@ -24,8 +24,7 @@ else
     )
 fi
 
-lein prod
-cp -r ./resources/static/* $target/
+./script/build.sh
 
 cd $target
 

@@ -12,36 +12,21 @@ Open browser at ```http://localhost:3499/index.html```
 
 ## Deployment
 
-Test production build:
-
-```bash
-./build.sh
-```
-
-This builds production version to project root (that's where gh-pages looks for it). Open
-and test ```index.html``` file.
-
 Actual deployment:
 
 ```bash
-git add your-changes-here
-git commit -m you-message-here
-git checkout gh-pages
-git merge master
-./build.sh
+./script/deploy.sh
 ```
 
-Now would be great time to test the build. Open ```index.html``` from the project root. If
-everything looks ok, then proceed with:
+This will clone/pull the gh-pages branch to gh-pages directory
+and build the new versions to the directory. If any changes happen,
+they will automatically we commited and pushed to github.
 
-```basg
-git add index.html js css img
-git commit -m some-meaningfull-message
-git push
-git checkout master
-```
+Check you results at http://clojurebridge.fi/
 
-And we're done and back in master. Check you results at http://clojurebridge-helsinki.metosin.fi/
+If you want to locally test the results you can run `./script/build.sh`,
+but it will require that you have already cloned the gh-pages branch to the
+directory.
 
 ## License
 
