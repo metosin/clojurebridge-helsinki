@@ -34,9 +34,14 @@
    ]
     
      [:div.sponsor
-      [:h2 "Tapahtuman mahdollistaa yhteistyökumppanimme " [:a {:href "http://www.metosin.fi/" :target "new"} "Metosin"]]
+      [:h2 "Tapahtuman mahdollistavat yhteistyökumppanimme " [:a {:href "http://www.metosin.fi/" :target "new"} "Metosin"] " ja " [:a {:href "http://www.solita.fi/" :target "new"} "Solita"]]
     [:a {:href "http://www.metosin.fi" :target "new"}
-     [:img.sponsor {:src "img/musta_vaaka.svg" :width "300px"}]]]
+     [:img.sponsor {:src "img/musta_vaaka.svg" :width "300px"}]]
+      [:a {:href "http://www.solita.fi" :target "new"}
+     [:img.sponsor {:src "img/solita_logo.png" :width "300px"}]]
+      ]
+    
+    
      ]])
 
 (defn mount-root! []
