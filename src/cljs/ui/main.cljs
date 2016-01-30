@@ -3,9 +3,10 @@
 
 (defn main-view []
   [:div.loading-page
-   [:div.logo
-    [:a {:href "http://www.clojurebridge.org" :target "new"}
-     [:img {:src "img/clojurebridge-logo.png"}]]]
+   [:div.scene
+    [:div.logo
+     [:a {:href "http://www.clojurebridge.org" :target "new"}
+      [:img {:src "img/clojurebridge-logo.png"}]]]]
    [:div.wrapper [:h1.script "ClojureBridge - Helsinki"]
    [:h2 "Tervetuloa ohjelmoimaan!"]
    [:section.intro
