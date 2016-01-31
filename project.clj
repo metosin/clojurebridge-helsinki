@@ -21,6 +21,8 @@
              :repl              false
              :server-logfile    "target/figwheel-logfile.log"}
 
+  :clean-targets [:target-path :compile-path "gh-pages/js"]
+
   :cljsbuild {:builds [{:id "dev"
                         :source-paths ["src/cljs" "src/dev-cljs"]
                         :compiler  {:main            "ui.figwheel"
