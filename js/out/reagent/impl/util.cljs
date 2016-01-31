@@ -122,9 +122,9 @@
               (swap! roots assoc container [comp container])
               (if (some? callback)
                 (callback))))))
-    #_(catch js/Object e
-      (clear-container container)
-      (throw e))))
+    (catch js/Object e
+      (do (clear-container container)
+          (throw e)))))
 
 (defn re-render-component [comp container]
   (render-component comp container nil))
