@@ -7,6 +7,7 @@ body {
   font-family: "Lato", sans-serif;
   background: #fefefe;
   color: #202020;
+  margin: 0;
 }
 /*Layout, flexbox*/
 .loading-page {
@@ -31,11 +32,21 @@ body {
   width: 100%;
 }
 .loading-page .logo {
+  width: 120px;
   margin: 4rem auto;
+  margin-bottom: 12rem;
 }
 img.sponsor {
   display: block;
   margin: 20px auto;
+}
+.scene {
+  background: url('../img/cljbridge-zorcam.jpg');
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px -120px;
+  min-width: 1200px;
 }
 .wrapper {
   width: 80%;
@@ -44,6 +55,12 @@ p,
 ul {
   width: 80%;
   margin: 1rem auto;
+}
+.sponsor-logos {
+  justify-content: space-around;
+  display: flex;
+  padding: 20px 70px;
+  flex-wrap: wrap;
 }
 /*Fonts, colors and sizes*/
 a {
