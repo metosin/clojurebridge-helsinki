@@ -24,7 +24,7 @@
       [:li "Installfest eli kehitysympäristön asennustyöpaja perjantaina 18.3.2016 klo 18-20."]
       [:li "Varsinainen workshop-päivä 19.3.2016 klo 10-17"]]]
      
-    [:p  "Tapahtuma on kaksipäiväinen. Tarjoamme tapahtumaan osallistuville lounaan. Tapahtuman aloittava Installfest järjestetään 18.3.2016 klo 18 Goforen toimistolla, ks. yhteystiedot. Installfestin tarkoitus on opastaa osallistujat ohjelmointiympäristön käyttöön ja tekemään koneisiinsa tarvittavat asennukset.  Varsinainen kurssi järjestetään lauantaina 19.3.2016 klo 10-17. Installfestiin on osallistuttava, mikäli aikoo osallistua kurssille, sillä sunnuntain aikataulu on melko tiivis, eikä tällöin valitettavasti ole aikaa pystytellä kehitysympäristöjä. Tule siis lauantaina piipahtamaan, vaikka osaisitkin itse asentaa ympäristön."
+    [:p  "Tapahtuma on kaksipäiväinen. Tarjoamme tapahtumaan osallistuville lounaan. Tapahtuman aloittava Installfest järjestetään 18.3.2016 klo 18 Goforen toimistolla, ks. yhteystiedot. Installfestin tarkoitus on opastaa osallistujat ohjelmointiympäristön käyttöön ja tekemään koneisiinsa tarvittavat asennukset.  Varsinainen kurssi järjestetään lauantaina 19.3.2016 klo 10-17. Installfestiin on osallistuttava, mikäli aikoo osallistua kurssille, sillä lauantain aikataulu on melko tiivis, eikä tällöin valitettavasti ole aikaa pystytellä kehitysympäristöjä. Tule siis perjantaina piipahtamaan, vaikka osaisitkin itse asentaa ympäristön."
      ]
     [:h2 "Ilmoittautuminen"]
     [:p "Tapahtumaan mahtuu 30 ensiksi ilmoittautunutta. Ilmoittaudu tapahtumaan " [:a {:href "https://www.eventbrite.com/e/clojurebridge-helsinki-a-programming-workshop-for-women-tickets-21109244318" :target "new"} "täältä"]]
