@@ -35,8 +35,14 @@
    ]
     
      [:div.sponsor
-      [:h2 "Tapahtuman mahdollistavat yhteistyökumppanimme " [:a {:href "http://gofore.com/" :target "new"} "Gofore"] ", "[:a {:href "http://www.metosin.fi/" :target "new"} "Metosin"] " ja " [:a {:href "http://www.solita.fi/" :target "new"} "Solita"]]
+      [:h2 "Tapahtuman mahdollistavat yhteistyökumppanimme "
+       [:a {:href "http://www.bitodi.com/" :target "new"} "Bitodi"] ", "
+       [:a {:href "http://www.gofore.com/" :target "new"} "Gofore"] ", "
+       [:a {:href "http://www.metosin.fi/" :target "new"} "Metosin"] " ja "
+       [:a {:href "http://www.solita.fi/" :target "new"} "Solita"]]
       [:div.sponsor-logos
+       [:a {:href "http://www.bitodi.com" :target "new"}
+        [:img.sponsor {:src "img/bitodi_logo.png" :width "300px"}]]
        [:a {:href "http://www.gofore.com" :target "new"}
         [:img.sponsor {:src "img/gofore_logo.png" :width "300px"}]]
        [:a {:href "http://www.metosin.fi" :target "new"}
