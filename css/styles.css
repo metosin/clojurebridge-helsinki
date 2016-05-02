@@ -6,24 +6,41 @@ html {
 body {
   font-family: "Lato", sans-serif;
   background: #fefefe;
-  color: #202020;
-}
-
-p, ul {
-  width: 80%;
-  margin: 1rem auto;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 a {
-  color: currentColor;
+  text-decoration: none;
+  border-bottom: 1px dashed #aaa;
+  color: #000;
 }
 
-h1, h2, h3 {
+a:hover {
+  border-bottom: 1px solid #000;
+}
+
+h1, h2 {
   text-align: center;
 }
 
+h1 {
+  font-size: 2.6rem;
+  font-family: "Cookie", cursive;
+}
+
 h2 {
-  font-size: 1.3em;
+  font-size: 1.3rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  margin: 1rem auto;
 }
 
 header {
@@ -31,7 +48,6 @@ header {
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
-  width: 100%;
   background: url('../img/cljbridge-zorcam.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,25 +61,76 @@ header .clojurebridge-logo {
   margin-bottom: 12rem;
 }
 
-.main {
+article {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.sponsor-logos {
-  justify-content: space-around;
+.main {
   display: flex;
-  padding: 20px 70px;
-  flex-wrap: wrap;
+  font-size: 1.2rem;
 }
 
-.sponsor-logos img {
-  display: block;
-  margin: 20px auto;
-  width: 300px;
+.info {
+  flex: 3;
 }
 
-.script {
-  font-family: "Cookie", cursive;
+.info .sponsors {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info .sponsors img {
+  width: 100px;
+}
+
+.info .sponsors a {
+  border: none;
+}
+
+.events {
+  margin-left: 3rem;
+  flex: 2;
+}
+
+.events ul {
+  list-style-type: circle;
+}
+
+.events ul li {
+  padding: 0.2rem 0;
+}
+
+footer {
+  margin-top: 3rem;
+  background: #999;
+  color: #000;
+  padding: 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+  border-bottom: 1px dashed #000;
+  font-weight: bold;
+}
+
+footer div {
+  padding: 0.3rem;
+}
+
+.event {
+
+}
+
+.event .todo {
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
 }
