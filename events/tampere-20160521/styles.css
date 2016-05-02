@@ -10,11 +10,11 @@
   align-items: stretch;
 }
 
-.intro :first-child {
+.intro .left {
   flex: 3
 }
 
-.intro :last-child {
+.intro .right {
   flex: 2;
   padding-left: 2rem;
 }
@@ -64,7 +64,7 @@
 }
 
 .agenda p:first-child {
-  padding-left: 0rem;
+  padding-left: 0;
   font-weight: bold;
   font-size: 1.2rem;
 }
