@@ -2,83 +2,68 @@ html {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
 }
+
 body {
   font-family: "Lato", sans-serif;
   background: #fefefe;
   color: #202020;
-  margin: 0;
 }
-/*Layout, flexbox*/
-.loading-page {
-  display: -ms-flexbox;
-  display: -webkit-flex;
+
+p, ul {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+a {
+  color: currentColor;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+header {
   display: flex;
-  -moz-flex-flow: column nowrap;
-  -ms-flex-direction: column;
-  -ms-flex-wrap: nowrap;
-  -webkit-flex-flow: column nowrap;
   flex-flow: column nowrap;
-  -webkit-box-align: center;
-  -moz-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
   justify-content: center;
   width: 100%;
-}
-.loading-page .logo {
-  width: 120px;
-  margin: 4rem auto;
-  margin-bottom: 12rem;
-}
-.scene {
   background: url('../img/cljbridge-zorcam.jpg');
-  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0px -120px;
   min-width: 1200px;
 }
-.wrapper {
+
+header .clojurebridge-logo {
+  width: 120px;
+  margin: 4rem auto;
+  margin-bottom: 12rem;
+}
+
+.main {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
-p,
-ul {
-  width: 80%;
-  margin: 1rem auto;
-}
+
 .sponsor-logos {
   justify-content: space-around;
   display: flex;
   padding: 20px 70px;
   flex-wrap: wrap;
 }
+
 .sponsor-logos img {
   display: block;
   margin: 20px auto;
   width: 300px;
 }
-/*Fonts, colors and sizes*/
-a {
-  color: currentColor;
-}
-h1,
-h2,
-h3,
-.script {
-  text-align: center;
-}
-h2 {
-  font-size: 1.3em;
-}
+
 .script {
   font-family: "Cookie", cursive;
-  text-align: center;
 }
-/*# sourceMappingURL=styles.main.css.map */
