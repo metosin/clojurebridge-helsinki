@@ -52,13 +52,11 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0px -120px;
-  min-width: 1200px;
 }
 
 header .clojurebridge-logo {
   width: 120px;
-  margin: 4rem auto;
-  margin-bottom: 12rem;
+  margin: 4rem auto 12rem auto;
 }
 
 article {
@@ -134,4 +132,24 @@ footer div {
   font-size: 2rem;
   font-style: italic;
   text-align: center;
+}
+
+@media all and (max-width: 970px) {
+  header {
+    background: none;
+  }
+  article {
+    width: auto;
+    padding: 0 1rem;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .info .sponsors img {
+    width: 80px;
+    padding: 0.3rem;
+  }
+  header .clojurebridge-logo {
+    margin-bottom: 4rem;
+  }
 }
