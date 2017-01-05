@@ -80,11 +80,12 @@ article {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
 }
 
 .info .sponsors img {
-  width: 100px;
+  width: 120px;
+  padding: 0.5rem 0.5rem;
 }
 
 .info .sponsors a {
